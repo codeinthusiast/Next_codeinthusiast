@@ -1,0 +1,600 @@
+{
+  "about": {
+    "name": "Jason Roger",
+    "title": "Senior Full stack Developer",
+    "subTitle": "I'm good at both frontend and backend website development",
+    "description1": "Forward-thinking full-stack software engineer with 8+ years of experience developing web and mobile applications and back-end systems.",
+    "description2": "Highly experienced in all aspects of the software development lifecycle and end-toend project management, from concept through to development and delivery.",
+    "description3": "Proficient in writing reusable, testable, and efficient code to develop scalable, secure, and high-performance applications.",
+    "quote": "Summary",
+    "exp_year": "8",
+    "address": "Manchester, United Kingdom",
+    "some_total": "90",
+    "contactEmail": "jasonroger0512@yahoo.com",
+    "avatar": {
+      "public_id": "portfolio3/1713995155677-122l5x.webp",
+      "url": "https://portfolio-image-store.s3.ap-south-1.amazonaws.com/portfolio3/1713995155677-122l5x.webp"
+    },
+    "alternateAvatars": [
+      {
+        "_id": "676e772d8a9e1d0a8b0647ca",
+        "public_id": "portfolio3/1713996156944-1hro1b.webp",
+        "url": "https://portfolio-image-store.s3.ap-south-1.amazonaws.com/portfolio3/1713996156944-1hro1b.webp"
+      }
+    ]
+  },
+  "usageMetrics": {
+    "visits": 0,
+    "downloads": 0
+  },
+  "_id": "65b3a22c01d900e96c4219ae",
+  "username": "portfolio3",
+  "email": "jasonroger0512@yahoo.com",
+  "role": "admin",
+  "timeline": [
+    {
+      "company_name": "StartupX",
+      "summary": "Contributed to the development of a new social networking platform targeting niche communities.",
+      "sequence": 6,
+      "startDate": "2023-11-13T00:00:00.000Z",
+      "endDate": "2024-03-13T00:00:00.000Z",
+      "jobTitle": "Teamwork",
+      "jobLocation": " Los Angeles, CA",
+      "bulletPoints": [
+        "I am not just committed to my own development.",
+        "I also care about helping other developers improve.",
+        "I am willing to teach, answer questions, and write documentation that favors teammates both in their business and in the wider developer community"
+      ],
+      "forEducation": true,
+      "enabled": true,
+      "_id": "65f1fe900556c3f887e9db94"
+    },
+    {
+      "company_name": "The Virtual Forge",
+      "summary": "The Virtual Forge is a software development company that provides a range of services including web and mobile app development, cloud infrastructure, UX/UI design, and digital product strategy.",
+      "sequence": 4,
+      "startDate": "2016-07-03",
+      "endDate": "2018-11-03",
+      "jobTitle": "Junior Software Developer",
+      "jobLocation": "Austin, TX",
+      "bulletPoints": [
+        "Streamlined processes by coordinating the transfer of 2,000+ entries of financial data from worldwide production subsidiaries to a single webbased reporting tool.",
+        "Developed 3 cross-platform web apps and web backend using diverse technology stacks such as JavaScript, React, Node, and PHP, leading to increased efficiency.",
+        "Onboarded 8 new developers and provided guidance on setting up development environment.",
+        "Reviewed code from junior engineers, made improvement suggestions, and established and promoted development guidelines, best practices, and standards."
+      ],
+      "forEducation": false,
+      "enabled": true,
+      "_id": "65f1fe4e0556c3f887e9db22"
+    },
+    {
+      "company_name": "Truelancer",
+      "summary": "Truelancer is a freelancer marketplace that connects skilled technical experts with clients.",
+      "sequence": 1,
+      "icon": {
+        "public_id": "portfolio3/1710357917833-0mic4.png",
+        "url": "https://portfolio-image-store.s3.ap-south-1.amazonaws.com/portfolio3/1710357917833-0mic4.png"
+      },
+      "startDate": "2022-04-03",
+      "endDate": "2025-01-03",
+      "jobTitle": "Full Stack Developer",
+      "jobLocation": "Manchester, United Kingdom",
+      "bulletPoints": [
+        "Developed reusable React components and custom hooks, resulting in a 50% reduction in development efforts across 3 different projects.",
+        "Improved loading times by 30% and enhanced overall performance by implementing caching techniques, browser optimization techniques, and GZIP compression.",
+        "Engineered the migration of a monolith GraphQL API to microservices architecture using Apollo Federation and Nest.js.",
+        "Enabled high scalability and agility by integrating AWS technology (Lambda, ECS Fargate) and infrastructure code frameworks (Terraform, Serverless).",
+        "Translated business requirements into technical specifications by applying in-depth knowledge of software development life cycle."
+      ],
+      "forEducation": false,
+      "enabled": true,
+      "_id": "65f1fd9e0556c3f887e9d9d8"
+    },
+    {
+      "company_name": "DataTech Solutions",
+      "sequence": 2,
+      "startDate": "2024-03-13T00:00:00.000Z",
+      "endDate": "2024-03-22T00:00:00.000Z",
+      "jobTitle": "Time management",
+      "jobLocation": " New York, NY",
+      "bulletPoints": [
+        "Good time management allows me to accomplish more in a shorter period of time",
+        "It makes me take advantage of learning opportunities and helps me focus, which leads to more career success."
+      ],
+      "forEducation": true,
+      "enabled": true,
+      "_id": "65f1fdef0556c3f887e9da44"
+    },
+    {
+      "company_name": "BigCommerce",
+      "summary": "BigCommerce is a marketplace platform that connects people with skilled taskers to help with cleaning, furniture assembly, home repairs, running errands and more",
+      "sequence": 3,
+      "startDate": "2018-12-03",
+      "endDate": "2022-03-03",
+      "jobTitle": "Senior Software Engineer",
+      "jobLocation": "Manchester, United Kingdom",
+      "bulletPoints": [
+        "Implemented customer-facing user interface (UI) and back-end services for various business processes, including calendar integration, metrics, discounts, stripe integration, and client rescheduling.",
+        "Built 10+ custom React hooks for sharing reusable logic between functional components.",
+        "Enhanced user experiences (UX) by updating 20+ components to match the latest design style guide, while adding animations to refresh the mobile app’s overall look and feel.",
+        "Collaborated with design and development teams to revamp the product's visual identity and improve user experience by implementing new design patterns and animations."
+      ],
+      "forEducation": false,
+      "enabled": true,
+      "_id": "65f1fe1e0556c3f887e9dab2"
+    },
+    {
+      "company_name": "ThePortfolyo",
+      "summary": "",
+      "sequence": 1,
+      "icon": {
+        "public_id": "1706289470834-siro83",
+        "url": "https://portfolio-image-store.s3.ap-south-1.amazonaws.com/1706289470834-siro83"
+      },
+      "startDate": "2023-12-13T00:00:00.000Z",
+      "endDate": "2024-01-25T00:00:00.000Z",
+      "jobTitle": "Proactive",
+      "jobLocation": "Bangalore",
+      "bulletPoints": [
+        "I am not afraid to offer new ideas for projects, workflow, or client's culture.",
+        "I do not hesitate to ask for help or guidance if I find something unclear"
+      ],
+      "forEducation": true,
+      "enabled": true,
+      "_id": "65b3e93feb20546ae6d46369"
+    }
+  ],
+  "skills": [
+    {
+      "enabled": true,
+      "name": "Javascript",
+      "sequence": 17,
+      "percentage": 87,
+      "image": {
+        "public_id": "1706288734207-4rlz3m",
+        "url": "https://portfolio-image-store.s3.ap-south-1.amazonaws.com/1706288734207-4rlz3m",
+        "_id": "65b3e661b48589dfcae187f8"
+      },
+      "_id": "65b3e661b48589dfcae187f7"
+    },
+    {
+      "enabled": true,
+      "name": "TypeScript",
+      "sequence": 16,
+      "percentage": 86,
+      "image": {
+        "public_id": "1706288708710-nrq74s",
+        "url": "https://portfolio-image-store.s3.ap-south-1.amazonaws.com/1706288708710-nrq74s",
+        "_id": "65b3e645b48589dfcae187a3"
+      },
+      "_id": "65b3e645b48589dfcae187a2"
+    },
+    {
+      "enabled": true,
+      "name": "PHP",
+      "sequence": 16,
+      "percentage": 85,
+      "image": {
+        "public_id": "1706287155946-z2oybb",
+        "url": "https://portfolio-image-store.s3.ap-south-1.amazonaws.com/1706287155946-z2oybb",
+        "_id": "65b3e034b48589dfcae182ce"
+      },
+      "_id": "65b3e034b48589dfcae182cd"
+    },
+    {
+      "enabled": true,
+      "name": "Python",
+      "sequence": 15,
+      "percentage": 95,
+      "image": {
+        "public_id": "1706287138776-slfc3e",
+        "url": "https://portfolio-image-store.s3.ap-south-1.amazonaws.com/1706287138776-slfc3e",
+        "_id": "65b3e023b48589dfcae18289"
+      },
+      "_id": "65b3e023b48589dfcae18288"
+    },
+    {
+      "enabled": true,
+      "name": "SQL",
+      "sequence": 6,
+      "percentage": 90,
+      "image": {
+        "public_id": "1706287104739-pm8en",
+        "url": "https://portfolio-image-store.s3.ap-south-1.amazonaws.com/1706287104739-pm8en",
+        "_id": "65b3e001b48589dfcae18246"
+      },
+      "_id": "65b3e001b48589dfcae18245"
+    },
+    {
+      "enabled": true,
+      "name": "GraphQl",
+      "sequence": 7,
+      "percentage": 92,
+      "image": {
+        "public_id": "1706286990341-tznh4",
+        "url": "https://portfolio-image-store.s3.ap-south-1.amazonaws.com/1706286990341-tznh4",
+        "_id": "65b3df8fb48589dfcae18205"
+      },
+      "_id": "65b3df8fb48589dfcae18204"
+    },
+    {
+      "enabled": true,
+      "name": "React",
+      "sequence": 13,
+      "percentage": 70,
+      "image": {
+        "public_id": "1706286966065-p2yrx9",
+        "url": "https://portfolio-image-store.s3.ap-south-1.amazonaws.com/1706286966065-p2yrx9",
+        "_id": "65b3df76b48589dfcae181c6"
+      },
+      "_id": "65b3df76b48589dfcae181c5"
+    },
+    {
+      "enabled": true,
+      "name": "Vue.js",
+      "sequence": 9,
+      "percentage": 70,
+      "image": {
+        "public_id": "1706286941212-chpzl",
+        "url": "https://portfolio-image-store.s3.ap-south-1.amazonaws.com/1706286941212-chpzl",
+        "_id": "65b3df5db48589dfcae18189"
+      },
+      "_id": "65b3df5db48589dfcae18188"
+    },
+    {
+      "enabled": true,
+      "name": "Angular.js",
+      "sequence": 7,
+      "percentage": 95,
+      "image": {
+        "public_id": "1706286913147-nwiky8",
+        "url": "https://portfolio-image-store.s3.ap-south-1.amazonaws.com/1706286913147-nwiky8",
+        "_id": "65b3df41b48589dfcae1814e"
+      },
+      "_id": "65b3df41b48589dfcae1814d"
+    },
+    {
+      "enabled": true,
+      "name": "Next.js",
+      "sequence": 3,
+      "percentage": 95,
+      "image": {
+        "public_id": "1706288679775-y4qwn3",
+        "url": "https://portfolio-image-store.s3.ap-south-1.amazonaws.com/1706288679775-y4qwn3",
+        "_id": "65b3e628b48589dfcae18750"
+      },
+      "_id": "65b3df24b48589dfcae18114"
+    },
+    {
+      "enabled": true,
+      "name": "Nuxt",
+      "sequence": 12,
+      "percentage": 95,
+      "image": {
+        "public_id": "1706286842731-r0eyn",
+        "url": "https://portfolio-image-store.s3.ap-south-1.amazonaws.com/1706286842731-r0eyn",
+        "_id": "65b3defbb48589dfcae180de"
+      },
+      "_id": "65b3defbb48589dfcae180dd"
+    },
+    {
+      "enabled": true,
+      "name": "Node.js",
+      "sequence": 11,
+      "percentage": 95,
+      "image": {
+        "public_id": "1706286821409-21cuqs",
+        "url": "https://portfolio-image-store.s3.ap-south-1.amazonaws.com/1706286821409-21cuqs",
+        "_id": "65b3dee5b48589dfcae180a9"
+      },
+      "_id": "65b3dee5b48589dfcae180a8"
+    },
+    {
+      "enabled": true,
+      "name": "Django",
+      "sequence": 10,
+      "percentage": 95,
+      "image": {
+        "public_id": "1706286780392-39i48h",
+        "url": "https://portfolio-image-store.s3.ap-south-1.amazonaws.com/1706286780392-39i48h",
+        "_id": "65b3debcb48589dfcae18076"
+      },
+      "_id": "65b3debcb48589dfcae18075"
+    },
+    {
+      "enabled": true,
+      "name": "Laravel",
+      "sequence": 9,
+      "percentage": 80,
+      "image": {
+        "public_id": "1706286760237-gh4idq",
+        "url": "https://portfolio-image-store.s3.ap-south-1.amazonaws.com/1706286760237-gh4idq",
+        "_id": "65b3dea8b48589dfcae18045"
+      },
+      "_id": "65b3dea8b48589dfcae18044"
+    },
+    {
+      "enabled": true,
+      "name": "React Native",
+      "sequence": 7,
+      "percentage": 90,
+      "image": {
+        "public_id": "1706286729467-rbblgb",
+        "url": "https://portfolio-image-store.s3.ap-south-1.amazonaws.com/1706286729467-rbblgb",
+        "_id": "65b3de89b48589dfcae18016"
+      },
+      "_id": "65b3de89b48589dfcae18015"
+    },
+    {
+      "enabled": true,
+      "name": "Material UI",
+      "sequence": 6,
+      "percentage": 90,
+      "image": {
+        "public_id": "1706286682511-rgp96r",
+        "url": "https://portfolio-image-store.s3.ap-south-1.amazonaws.com/1706286682511-rgp96r",
+        "_id": "65b3de5bb48589dfcae17fe9"
+      },
+      "_id": "65b3de5bb48589dfcae17fe8"
+    },
+    {
+      "enabled": true,
+      "name": "Tailwind CSS",
+      "sequence": 5,
+      "percentage": 90,
+      "image": {
+        "public_id": "1706291833080-0loo09",
+        "url": "https://portfolio-image-store.s3.ap-south-1.amazonaws.com/1706291833080-0loo09",
+        "_id": "65b3f27aeb20546ae6d49e76"
+      },
+      "_id": "65b3de41b48589dfcae17fbd"
+    },
+    {
+      "enabled": true,
+      "name": "Tailwind",
+      "sequence": 4,
+      "percentage": 99,
+      "image": {
+        "public_id": "1706286616701-2jka3q",
+        "url": "https://portfolio-image-store.s3.ap-south-1.amazonaws.com/1706286616701-2jka3q",
+        "_id": "65b3de19b48589dfcae17f95"
+      },
+      "_id": "65b3de19b48589dfcae17f94"
+    },
+    {
+      "enabled": true,
+      "name": "CSS",
+      "sequence": 2,
+      "percentage": 97,
+      "image": {
+        "public_id": "1706286273084-romle",
+        "url": "https://portfolio-image-store.s3.ap-south-1.amazonaws.com/1706286273084-romle"
+      },
+      "_id": "65b3dcc1b48589dfcae17e4d"
+    },
+    {
+      "name": "HTML",
+      "sequence": 1,
+      "percentage": 98,
+      "image": {
+        "public_id": "1706286058630-v3ax0a",
+        "url": "https://portfolio-image-store.s3.ap-south-1.amazonaws.com/1706286058630-v3ax0a"
+      },
+      "_id": "65b3dbeba5c8d2db7b6164bc",
+      "enabled": true
+    }
+  ],
+  "projects": [
+    {
+      "liveurl": "#",
+      "githuburl": "#",
+      "title": "Strapi Starter",
+      "sequence": 14,
+      "image": {
+        "public_id": "1706285511679-xe7r9t",
+        "url": "./portfolio/1.png"
+      },
+      "description": "Strapi Community Edition is a free and open-source headless CMS enabling you to manage any content, anywhere. This project was started with love by Trecia, Daniel and Paul. We were all new to Next 14 and Typescript. If you find any bugs or improvements feel free to create an issue. ",
+      "techStack": ["React.js ", "Next.js ", " Strapi ", " TypeScript", "TailwindCss", "MySQL"],
+      "_id": "65b3d9c8d017f6b49c778ca7",
+      "enabled": true
+    },
+    {
+      "liveurl": "#",
+      "githuburl": "#",
+      "title": "Financial Management",
+      "sequence": 15,
+      "image": {
+        "public_id": "1706285468702-igx05q",
+        "url": "https://portfolio-image-store.s3.ap-south-1.amazonaws.com/1706285468702-igx05q"
+      },
+      "description": "This Financial Management website manage and show about your income and financial situation. By using it, you can manage your money as more effective.",
+      "techStack": ["React.js ", "Next.js ", "Node.js ", "Bootstrap", "Express.js", "Axios", "MongoDB"],
+      "_id": "65b3d99dd017f6b49c778c86",
+      "enabled": true
+    },
+    {
+      "liveurl": "#",
+      "githuburl": "#",
+      "title": "BORCELLE",
+      "sequence": 14,
+      "image": {
+        "public_id": "1706285431821-3lfg2r",
+        "url": "https://portfolio-image-store.s3.ap-south-1.amazonaws.com/1706285431821-3lfg2r"
+      },
+      "description": "BORCELLE company is the famous car selling company. It advertise many brand of cars with its properties such as Speed, Engine, Transmission, Price.",
+      "techStack": ["Reactjs ", "MongoDB", "Express.js", "Node.js", "Material UI"],
+      "_id": "65b3d978d017f6b49c778c67",
+      "enabled": true
+    },
+    {
+      "liveurl": "#",
+      "githuburl": "#",
+      "title": "Healthcare",
+      "sequence": 7,
+      "image": {
+        "public_id": "1706285431821-3lfg2r",
+        "url": "./portfolio/2.jpg"
+      },
+      "description": "This Healthcare website provide informations about the food, agency, diagnostic, pharmacy, hospital, doctor etc. I will help people more healthful, more energetic.",
+      "techStack": ["Laravel ", "Angular", "MySQL", "Bootstrap"],
+      "_id": "65b3d978d017f6b49c778c68",
+      "enabled": true
+    },
+    {
+      "liveurl": "#",
+      "githuburl": "#",
+      "title": "Ngena",
+      "sequence": 9,
+      "image": {
+        "public_id": "1706285431821-3lfg2r",
+        "url": "./portfolio/4.jpg"
+      },
+      "description": "Negena website is introduce people to new job in global area. It get and post all of the jobs from more than 2000 companies and introduce it to their customs.",
+      "techStack": ["Vue.js", "MongoDB", "Express.js", "Node.js", "Ant-design"],
+      "_id": "65b3d978d017f6b49c778c60",
+      "enabled": true
+    },
+    {
+      "liveurl": "#",
+      "githuburl": "#",
+      "title": "Own health",
+      "sequence": 8,
+      "image": {
+        "public_id": "1706285431821-3lfg2r",
+        "url": "./portfolio/3.jpg"
+      },
+      "description": "This website is manage and improve your's health. I manage all of your health characteristics and give you a advice to improve your health.",
+      "techStack": ["Django ", "PostgreSQL", "Vue.js", "TailwindCss"],
+      "_id": "65b3d978d017f6b49c778c69",
+      "enabled": true
+    }
+  ],
+  "social_handles": [
+    {
+      "platform": "Instagram",
+      "url": "https://www.instagram.com/jason.01/",
+      "image": {
+        "public_id": "1708718250873-3038n7.webp",
+        "url": "https://portfolio-image-store.s3.ap-south-1.amazonaws.com/1708718250873-3038n7.webp"
+      },
+      "enabled": true,
+      "_id": "65b3ea4feb20546ae6d4641d"
+    },
+    {
+      "platform": "LinkedIn",
+      "url": "http://www.linkedin.com/in/jason",
+      "image": {
+        "public_id": "1708718263294-2lfj67.webp",
+        "url": "https://portfolio-image-store.s3.ap-south-1.amazonaws.com/1708718263294-2lfj67.webp"
+      },
+      "enabled": true,
+      "_id": "65b3e99beb20546ae6d463c2"
+    },
+    {
+      "enabled": true,
+      "platform": "Twitter",
+      "url": "https://x.com/Jasonroger",
+      "image": {
+        "public_id": "1708718328750-d4jsq.webp",
+        "url": "https://portfolio-image-store.s3.ap-south-1.amazonaws.com/1708718328750-d4jsq.webp"
+      },
+      "_id": "65b3e47cb48589dfcae185bd"
+    },
+    {
+      "enabled": true,
+      "platform": "Facebook",
+      "url": "#",
+      "image": {
+        "public_id": "1708718346601-xldm.webp",
+        "url": "https://portfolio-image-store.s3.ap-south-1.amazonaws.com/1708718346601-xldm.webp"
+      },
+      "_id": "65b3e43cb48589dfcae1856c"
+    }
+  ],
+  "services": [
+    {
+      "name": "British Columbia Institute of Technology",
+      "charge": "2011 - 2012",
+      "desc": "Computer Software Engineering",
+      "enabled": true,
+      "_id": "65f1fd690556c3f887e9d94a",
+      "image": {
+        "public_id": "1708718346601-xldm.webp",
+        "url": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTeigVj9R-ItAZGXUqKe9Jg13vZwYCaoUgio2LQqktNqqR7fqGuFQWp&usqp=CAE&s"
+      }
+    },
+    {
+      "name": "University of Salford",
+      "charge": "2012 - 2016",
+      "desc": "B.S. Computer Science",
+      "image": {
+        "public_id": "1708718346601-xldm.webp",
+        "url": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRiaD4fWfgDGQqD0BfpbfzKIyDW2QezgyS5l6uU7tZn93OxXloIei8EJT0&s"
+      },
+      "enabled": true,
+      "_id": "65f1fd100556c3f887e9d87b"
+    }
+  ],
+  "testimonials": [
+    {
+      "image": {
+        "public_id": "portfolio3/1710357726628-c4dr18.png",
+        "url": "https://portfolio-image-store.s3.ap-south-1.amazonaws.com/portfolio3/1710357726628-c4dr18.png"
+      },
+      "name": "Samantha Wu",
+      "review": "I had the pleasure of working closely with John on a challenging project. He is a highly skilled developer who consistently delivered excellent results. His ability to understand complex requirements and implement efficient solutions was truly impressive. I would highly recommend him to any organization looking for a talented developer.",
+      "position": "Software Engineer",
+      "enabled": true,
+      "_id": "65f1fcdf0556c3f887e9d74c"
+    },
+    {
+      "image": {
+        "public_id": "portfolio3/1710357705657-aimydg.png",
+        "url": "https://portfolio-image-store.s3.ap-south-1.amazonaws.com/portfolio3/1710357705657-aimydg.png"
+      },
+      "name": "David Rodriguez",
+      "review": "Throughout our project, John demonstrated exceptional technical skills and a strong work ethic. He consistently met deadlines and produced high-quality code that exceeded our expectations. His proactive approach to problem-solving and effective communication made him a valuable member of our team\n",
+      "position": "Project Manager",
+      "enabled": true,
+      "_id": "65f1fcca0556c3f887e9d6e8"
+    },
+    {
+      "image": {
+        "public_id": "portfolio3/1710357683739-tqeav.png",
+        "url": "https://portfolio-image-store.s3.ap-south-1.amazonaws.com/portfolio3/1710357683739-tqeav.png"
+      },
+      "name": " Emily Chen",
+      "review": "I had the pleasure of collaborating with John on a complex web application project. His ability to translate design concepts into functional, user-friendly features was impressive. John consistently delivered high-quality work and was always open to feedback. I look forward to working with him again in the future.\n\n",
+      "position": " Emily Chen",
+      "enabled": true,
+      "_id": "65f1fcb30556c3f887e9d662"
+    },
+    {
+      "image": {
+        "public_id": "portfolio3/1710357647030-pi5cis.png",
+        "url": "https://portfolio-image-store.s3.ap-south-1.amazonaws.com/portfolio3/1710357647030-pi5cis.png"
+      },
+      "name": " Michael Lee",
+      "review": "John is a skilled developer with a keen eye for detail. He played a crucial role in our team, consistently producing clean, efficient code. His collaborative nature and willingness to take on new challenges make him an invaluable asset to any project.\"",
+      "position": " Lead Developer",
+      "enabled": true,
+      "_id": "65f1fc8f0556c3f887e9d4e5"
+    },
+    {
+      "image": {
+        "public_id": "portfolio3/1710357534893-2s9b5d.png",
+        "url": "https://portfolio-image-store.s3.ap-south-1.amazonaws.com/portfolio3/1710357534893-2s9b5d.png"
+      },
+      "name": "Sarah Johnson",
+      "review": "Working with John was an absolute delight. Their professionalism and technical prowess were evident from day one. He consistently delivered top-notch code and went above and beyond to ensure the success of our project. I highly recommend him for any development endeavor",
+      "position": " Product Manager",
+      "enabled": true,
+      "_id": "65f1fc1f0556c3f887e9d31d"
+    }
+  ],
+  "createdAt": "2024-01-26T12:14:36.514Z",
+  "updatedAt": "2024-05-08T17:53:29.758Z",
+  "__v": 74,
+  "refreshToken": ""
+}
