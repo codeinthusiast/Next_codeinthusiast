@@ -1,7 +1,3 @@
-# Portfolio Project
-
-![Modern Portfolio Website](https://github.com/user-attachments/assets/4f82669c-9a5a-4761-a927-2f54f0f64169)
-
 ## Overview
 
 This project is a portfolio website template showcasing skills, projects, and experience. It is built using modern web technologies and follows best practices for performance and accessibility.
@@ -84,13 +80,13 @@ This project is a portfolio website template showcasing skills, projects, and ex
 1. Clone the repository:
 
    ```sh
-   git clone https://github.com/darkhorsecodehub/the-portfolio.git
+   git clone https://github.com/codeinthusiast/Next_codeinthusiast.git
    ```
 
 2. Navigate to the project directory:
 
    ```sh
-   cd the-portfolio
+   cd Next_codeinthusiast
    ```
 
 3. Install the dependencies:
@@ -132,10 +128,6 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 
 For questions or feedback, reach out through:
 
-- Email: horsedark374@gmail.com
-- Twitter: [@Jasonroger](https://twitter.com/jasonroger)
-- LinkedIn: [Mohd Jason](https://linkedin.com/in/jason.01)
-
 ---
 
-Built with ❤️ by [Jason Roger]
+Built with ❤️ by [codeinthusiast]
