@@ -2,21 +2,16 @@
 
 import { useState } from "react";
 import { motion } from "motion/react";
-
-import { Timeline as ITimeline } from "../utils/interface";
+import { Experience as IExperience } from "../utils/interface";
 import { SectionHeading } from "./ui/Typography";
 import { SlideIn, Transition } from "./ui/Transitions";
 import { formatDate } from "../utils";
 
 interface ExperienceProps {
-  timeline: ITimeline[];
+  experience: IExperience[];
 }
 
-const Timeline = ({ timeline }: ExperienceProps) => {
-  const experience = timeline
-    .filter((line) => !line.forEducation && line.enabled === true)
-    .sort((a, b) => a.sequence - b.sequence);
-
+const Timeline = ({ experience }: ExperienceProps) => {
   const [hover, setHover] = useState<number | null>(null);
 
   return (
@@ -28,7 +23,7 @@ const Timeline = ({ timeline }: ExperienceProps) => {
       <div>
         {experience.map((exp, index) => (
           <Transition
-            key={exp._id}
+            key={index}
             className="py-4 md:py-8 border-b border-white/10 hover:bg-white/5 px-2 md:px-12"
             onMouseEnter={() => setHover(index)}
             onMouseLeave={() => setHover(null)}

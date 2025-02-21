@@ -11,39 +11,33 @@ function Skills({ skills }: SkillsProps) {
   return (
     <section id="skills">
       <ParallaxText baseVelocity={-5}>
-        {skills.map((skill) =>
-          skill.enabled ? (
-            <span
-              key={skill._id}
-              className="md:text-3xl text-xl font-semibold uppercase text-white/30 tracking-tighter"
-            >
-              {skill.name} •
-            </span>
-          ) : null
+        {skills.map((skill, index) =>
+          <span
+            key={index}
+            className="md:text-3xl text-xl font-semibold uppercase text-white/30 tracking-tighter"
+          >
+            {skill.name} •
+          </span>
         )}
       </ParallaxText>
       <ParallaxText baseVelocity={5}>
-        {skills.map((skill) =>
-          skill.enabled ? (
-            <span
-              key={skill._id}
-              className="md:text-3xl text-xl font-semibold uppercase text-white/30 tracking-tighter"
-            >
-              {skill.name} •
-            </span>
-          ) : null
+        {skills.map((skill, index) =>
+          <span
+            key={index}
+            className="md:text-3xl text-xl font-semibold uppercase text-white/30 tracking-tighter"
+          >
+            {skill.name} •
+          </span>
         )}
       </ParallaxText>
       <ParallaxText baseVelocity={-5}>
-        {skills.map((skill) =>
-          skill.enabled ? (
-            <span
-              key={skill._id}
-              className="md:text-3xl text-xl font-semibold uppercase text-white/30 tracking-tighter"
-            >
-              {skill.name} •
-            </span>
-          ) : null
+        {skills.map((skill, index) =>
+          <span
+            key={index}
+            className="md:text-3xl text-xl font-semibold uppercase text-white/30 tracking-tighter"
+          >
+            {skill.name} •
+          </span>
         )}
       </ParallaxText>
     </section>

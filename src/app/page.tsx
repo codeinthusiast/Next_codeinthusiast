@@ -1,12 +1,11 @@
-import About from "@/components/about";
+import About from "@/components/About";
 import Contact from "@/components/Contact";
-import Header from "@/components/header";
-import Hero from "@/components/hero";
-import Projects from "@/components/projects";
-import Services from "@/components/Services";
+import Header from "@/components/Header";
+import Hero from "@/components/Hero";
+import Portfolios from "@/components/Portfolios";
+import Education from "@/components/Education";
 import Skills from "@/components/Skills";
-import Testimonials from "@/components/testimonials";
-import Timeline from "@/components/Timeline";
+import Experience from "@/components/Experience";
 import { Portfolio } from "@/utils/interface";
 
 export default async function Home() {
@@ -14,24 +13,23 @@ export default async function Home() {
 
   const {
     about,
-    services,
+    experience,
     skills,
-    projects,
-    social_handles,
-    timeline,
-    email
+    portfolios,
+    education,
+    strength
   } = portfolio as Portfolio;
 
   return (
     <main className="relative">
-      <Header social={social_handles} />
+      <Header />
       <Hero about={about} />
-      <About about={about} timeline={timeline} />
+      <About about={about} strength={strength} />
       <Skills skills={skills} />
-      <Projects projects={projects} />
-      <Services services={services} />
-      <Timeline timeline={timeline} />
-      <Contact email={email} social_handle={social_handles} about={about} />
+      <Portfolios portfolios={portfolios} />
+      <Education education={education} />
+      <Experience experience={experience} />
+      <Contact />
     </main>
   );
 }

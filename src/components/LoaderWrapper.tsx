@@ -1,7 +1,7 @@
 "use client";
 
 import { useState } from "react";
-import Loader from "./Loader"; // Assuming you have a Loader component
+import Loader from "./Loader";
 
 interface LoaderWrapperProps {
   children: React.ReactNode;

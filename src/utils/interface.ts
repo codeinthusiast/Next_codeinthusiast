@@ -1,11 +1,10 @@
 export interface Portfolio {
   about: About;
-  email: string;
-  timeline: Timeline[];
+  experience: Experience[];
   skills: Skill[];
-  projects: Project[];
-  social_handles: SocialHandle[];
-  services: Service[];
+  portfolios: Portfolio[];
+  education: Education;
+  strength: Strength[];
 }
 
 export interface About {
@@ -16,21 +15,14 @@ export interface About {
   description2: string;
   description3: string;
   quote: string;
-  exp_year: string;
-  address: string;
-  some_total: string;
-  alternateAvatars: any[];
 }
 
 export interface Skill {
-  enabled: boolean;
   name: string;
   sequence: number;
-  percentage: number;
-  _id: string;
 }
 
-export interface Project {
+export interface Portfolio {
   liveurl: string;
   githuburl: string;
   title: string;
@@ -47,33 +39,14 @@ export interface Image {
   url: string;
 }
 
-export interface SocialHandle {
-  platform: string;
-  url: string;
-  image: Image;
-  enabled: boolean;
-  _id: string;
-}
-
-export interface Service {
+export interface Education {
   name: string;
   charge: string;
   desc: string;
-  enabled: boolean;
-  _id: string;
   image: Image;
 }
 
-export interface Testimonial {
-  image: Image;
-  name: string;
-  review: string;
-  position: string;
-  enabled: boolean;
-  _id: string;
-}
-
-export interface Timeline {
+export interface Experience {
   company_name: string;
   summary: string;
   sequence: number;
@@ -82,7 +55,9 @@ export interface Timeline {
   jobTitle: string;
   jobLocation: string;
   bulletPoints: string[];
-  forEducation: boolean;
-  enabled: boolean;
-  _id: string;
+}
+
+export interface Strength {
+  jobTitle: string;
+  bulletPoints: string[];
 }

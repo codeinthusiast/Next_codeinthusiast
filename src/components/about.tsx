@@ -2,17 +2,15 @@
 
 import { Dispatch, SetStateAction, useState } from "react";
 import { motion } from "motion/react";
-
-import { About as IAbout, Timeline } from "../utils/interface";
+import { About as IAbout, Strength } from "../utils/interface";
 import { OpacityTextReveal, SlideIn, Transition } from "./ui/Transitions";
-import { formatDate } from "../utils";
 
 interface AboutProps {
   about: IAbout;
-  timeline: Timeline[];
+  strength: Strength[];
 }
 
-const About = ({ about, timeline }: AboutProps) => {
+const About = ({ about, strength }: AboutProps) => {
   const [activeIndex, setActiveIndex] = useState(-1);
 
   const handleActiveIndex = (index) => {
@@ -21,10 +19,6 @@ const About = ({ about, timeline }: AboutProps) => {
     :
     setActiveIndex(index)
   }
-
-  const education = timeline
-    .filter((line) => line.forEducation && line.enabled === true)
-    .sort((a, b) => a.sequence - b.sequence);
 
   return (
     <section
@@ -50,12 +44,12 @@ const About = ({ about, timeline }: AboutProps) => {
         </Transition>
         <div className="pt-5">
           <div className="py-5 overflow-hidden grid w-full">
-            {education.map((edu, index) => (
-              <Transition key={edu._id}>
-                <TimelineCard
+            {strength.map((item, index) => (
+              <Transition key={index}>
+                <StrengthCard
                   index={index}
                   activeIndex={activeIndex}
-                  timeline={edu}
+                  strength={item}
                   handleActiveIndex={handleActiveIndex}
                 />
               </Transition>
@@ -67,7 +61,7 @@ const About = ({ about, timeline }: AboutProps) => {
         <div className="sticky ">
           <Transition>
             <img
-              src="./avatar.jpg"
+              src="./avatar.png"
               width={460}
               height={480}
               alt={about.name}
@@ -82,26 +76,26 @@ const About = ({ about, timeline }: AboutProps) => {
 
 export default About;
 
-interface TimelineCardProps {
-  timeline: Timeline;
+interface StrengthCardProps {
+  strength: Strength;
   activeIndex: number;
   handleActiveIndex: Dispatch<SetStateAction<number>>;
   index: number;
 }
 
-const TimelineCard = ({
-  timeline,
+const StrengthCard = ({
+  strength,
   activeIndex,
   index,
   handleActiveIndex
-}: TimelineCardProps) => (
+}: StrengthCardProps) => (
   <section id="about" className="border-b border-primary/20 py-4">
     <div
       className="flex items-center justify-between gap-4 cursor-pointer select-none"
       onClick={() => handleActiveIndex(index)}
     >
       <span className="text-xl md:text-xl font-bold flex-1">
-        {timeline.jobTitle}
+        {strength.jobTitle}
       </span>
       <div className="relative size-6 flex items-center justify-center">
         <span className="bg-primary w-4 md:w-6 h-0.5 absolute" />
@@ -118,7 +112,7 @@ const TimelineCard = ({
       index === activeIndex ?
         <div className="pt-5">
           <ul className="list-inside">
-            {timeline.bulletPoints.map((point, index) => (
+            {strength.bulletPoints.map((point, index) => (
               <li key={index} className="text-foreground/80 max-md:text-md">
                 {point}
               </li>

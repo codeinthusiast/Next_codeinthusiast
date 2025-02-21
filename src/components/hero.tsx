@@ -10,7 +10,7 @@ interface HeroProps {
 
 const Hero = ({ about }: HeroProps) => {
   const openResume = () => {
-    window.open('./JasonRoger.pdf', '_blank'); // Open PDF in new tab
+    window.open('./VolodymyrHuk.pdf', '_blank'); // Open PDF in new tab
   };
   return (
     <section className="h-dvh w-dvw overflow-hidden relative" id="home">
@@ -22,7 +22,7 @@ const Hero = ({ about }: HeroProps) => {
           <div className="flex items-center justify-center flex-col h-full pb-2">
             <Transition>
               <div className="shine-container">
-                <span className="shine-text">J</span>
+                <span className="shine-text">V</span>
               </div>
             </Transition>
             <div className="py-6 flex items-center flex-col">
